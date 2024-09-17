@@ -5,7 +5,7 @@ local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
 local Nameee = loadstring(game:HttpGet("https://raw.githubusercontent.com/Godmey/Ues-4king/refs/heads/main/Hee.lua"))()
 
 local player = game.Players.LocalPlayer
-local LP = player.Character.Humanoid.Name
+local LP = player.Name
 
 local found = false
 for _, allowedName in ipairs(Nameee) do
@@ -16,7 +16,7 @@ for _, allowedName in ipairs(Nameee) do
 end
 
 if not found then
-    player:Kick("คุณไม่ใช่คนที่ฉันอนุญาติให้ใช้สคริป")
+    player:Kick("❗คุณไม่ใช่คนที่ฉันอนุญาติให้ใช้สคริป❗")
 end
 _G.Farm = true
 
